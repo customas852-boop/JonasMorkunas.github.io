@@ -860,6 +860,7 @@ section,
 .skills .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   height: 10px;
+  position: relative;
 }
 
 .skills .progress-bar {
@@ -867,6 +868,18 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}
+
+.skills .progress-bar-ai {
+  position: absolute;
+  top: 0;
+  left: var(--skill-progress);
+  background-color: #9b7bff;
+}
+
+.skills .ai-progress-label {
+  color: #9b7bff;
+  font-style: normal;
 }
 
 /*--------------------------------------------------------------
